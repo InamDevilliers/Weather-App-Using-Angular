@@ -1,0 +1,66 @@
+.container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .search input {
+    width: 600px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .weather-details {
+    display: flex;
+    justify-content: center;
+    gap: 100px ;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .city-weather {
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  .city-weather h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .add-city input{
+    width: 600px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  .add-city button{
+    width: 60px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .city-label{
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .remove-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-top: 5px;
+    font-size: 14px;
+  }
+  
+  .remove-button:hover {
+    background-color: #d32f2f;
+  }
+  
